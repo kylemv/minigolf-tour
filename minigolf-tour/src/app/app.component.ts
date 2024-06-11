@@ -1,10 +1,25 @@
 import { Component } from '@angular/core';
+import { RouterOutlet, RouterModule } from '@angular/router';
+import { MatMenuModule } from '@angular/material/menu';
+
+import { FooterComponent } from './components/footer/footer.component'
+import { HeaderComponent } from './components/header/header.component'
+import { LeaderboardComponent } from './components/leaderboard/leaderboard.component'
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [
+    RouterOutlet,
+    RouterModule,
+    MatMenuModule,
+    FooterComponent,
+    HeaderComponent,
+    LeaderboardComponent
+  ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Mini Golf Tour';
+  title = 'minigolf-tour';
 }

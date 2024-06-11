@@ -6,10 +6,12 @@ describe('TourEventComponent', () => {
   let component: TourEventComponent;
   let fixture: ComponentFixture<TourEventComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [TourEventComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [TourEventComponent]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(TourEventComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
