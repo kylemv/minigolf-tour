@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "minigolf-tour:build:production"
+              "buildTarget": "minigolf-tour:build:production"
             },
             "development": {
-              "browserTarget": "minigolf-tour:build:development"
+              "buildTarget": "minigolf-tour:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "minigolf-tour:build"
+            "buildTarget": "minigolf-tour:build"
           }
         },
         "test": {
