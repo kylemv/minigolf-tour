@@ -1,13 +1,13 @@
 import { Course } from "./Course";
-import { Player } from "./Player";
+import { EventScore } from "./EventScore"
 
 export interface TourEvent
 {
     name: String;
 
-    date: Date;
+    date: String;
 
-    // course: Course;
+    course: Course;
 
-    // players: Player[];
+    scores: EventScore[];
 }

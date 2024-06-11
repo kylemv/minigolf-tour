@@ -11,10 +11,12 @@ export class LeaderboardService {
 
     players: Player[] = [
         {
-            name: 'A'
+            name: 'A',
+            id: 0
         },
         {
-            name: 'B'
+            name: 'B',
+            id: 1
         }
     ];
 

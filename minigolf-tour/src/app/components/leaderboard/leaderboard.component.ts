@@ -1,6 +1,6 @@
 import { Component,inject } from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {MatTableModule} from '@angular/material/table';
+import { CommonModule } from '@angular/common';
+import { MatTableModule } from '@angular/material/table';
 import { LeaderboardService } from '../../services/leaderboard.service';
 
 import { Player } from '../../types/Player'
