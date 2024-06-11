@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { TourEvent } from '../types/TourEvent'
 import { Observable } from 'rxjs';
 
-import { events } from '../../../public/tour-events.json'
+import { events } from '../../../public/tour-data.json'
 
 @Injectable({
     providedIn: 'root'
