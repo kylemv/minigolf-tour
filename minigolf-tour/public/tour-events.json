@@ -3,8 +3,10 @@
         {
             "name" : "Mitchells",
             "date" : "2024-06-09",
+            "id" : 0,
             "course" : {
                 "name": "Mitchell's Golf Complex",
+                "id" : 0,
                 "holes" : [],
                 "par" : 70
             },

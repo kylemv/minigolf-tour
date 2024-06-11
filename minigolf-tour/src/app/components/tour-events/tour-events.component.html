@@ -8,12 +8,23 @@
     } -->
     <ng-container matColumnDef="Name">
         <th mat-header-cell *matHeaderCellDef>Name</th>
-        <td mat-cell *matCellDef="let event">{{event.course.name}}</td>
+        <td mat-cell *matCellDef="let event">
+            <a mat-stroked-button href="/courses/{{event.course.id}}" color="primary">
+                {{event.course.name}}
+            </a>
+        </td>
     </ng-container>
 
     <ng-container matColumnDef="Date">
         <th mat-header-cell *matHeaderCellDef>Date</th>
         <td mat-cell *matCellDef="let event">{{event.date}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Details">
+        <th mat-header-cell *matHeaderCellDef>Details</th>
+        <td mat-cell *matCellDef="let event">
+            <a mat-stroked-button href="/tour-events/{{event.id}}" color="primary">Details</a>
+        </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>

@@ -7,6 +7,8 @@ export interface TourEvent
 
     date: String;
 
+    id: Number;
+
     course: Course;
 
     scores: EventScore[];
