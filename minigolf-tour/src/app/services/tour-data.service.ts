@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Course } from '../types/Course';
 import { Player } from '../types/Player';
 import { PlayerScore, LeaderScore } from '../types/PlayerScore';
-import { TourEvent, TourEventResults } from '../types/TourEvent'
+import { TourEvent } from '../types/TourEvent'
 import { EventResult } from '../types/EventScore';
 
 import { courses, events, players, scoreBoard, leaderboard } from '../../../public/tour-data-update.json'
@@ -20,8 +20,6 @@ export class TourDataService {
     scoreBoard: PlayerScore[] = [];
     leaderBoard: LeaderScore[] = [];
 
-    eventResults: TourEventResults[] = [];
-
     constructor() { 
         this.courseList = courses
         this.eventList = events
@@ -36,6 +34,28 @@ export class TourDataService {
 
     getPlayers(): Player[] {
         return this.playerList;
+    }
+
+    getTourEvent(id: Number): TourEvent {
+        for (var event of this.eventList) {
+            if (event.id === id) {
+                return event;
+            }
+        }
+
+        return {
+            name: 'undefined',
+            date: '',
+            id: -1,
+            course: {
+                name: 'undefined',
+                id: -1,
+                holes: [],
+                par: -1
+            },
+            scores: [],
+            results: []
+        }
     }
 
     getTourEvents(): TourEvent[] {

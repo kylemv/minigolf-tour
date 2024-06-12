@@ -21,11 +21,13 @@ export interface TourEvent
     course: Course;
 
     scores: EventScore[];
-}
-
-export interface TourEventResults
-{
-    event: TourEvent;
 
     results: EventResult[];
 }
+
+// export interface TourEventResults
+// {
+//     event: TourEvent;
+
+//     results: EventResult[];
+// }

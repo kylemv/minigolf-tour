@@ -4,6 +4,7 @@ import { CoursesComponent } from './components/courses/courses.component'
 import { PlayersComponent } from './components/players/players.component'
 import { LeaderboardComponent } from './components/leaderboard/leaderboard.component';
 import { TourEventsComponent } from './components/tour-events/tour-events.component';
+import { TourEventDetailsComponent } from './components/tour-event-details/tour-event-details.component';
 
 export const routes: Routes = [
     {
@@ -23,7 +24,7 @@ export const routes: Routes = [
     },
     {
         path: 'tour-events/:id',
-        component: TourEventsComponent,
+        component: TourEventDetailsComponent,
         title: 'Tour Event Details'
     },
     {

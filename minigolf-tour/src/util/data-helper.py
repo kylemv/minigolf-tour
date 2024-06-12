@@ -41,6 +41,13 @@ def getEventResults(events: list[dict]) -> list[dict]:
         event['results'] = getEventResult(event)
     return events
 
+def getEventId(event: dict) -> dict:
+    return {
+        'name':event['name'],
+        'date': event['date'],
+        'id': event['id']
+    }
+
 def getPlayerScores(events: list[dict]) -> list[dict]:
     playerScores = {}
 
@@ -51,13 +58,13 @@ def getPlayerScores(events: list[dict]) -> list[dict]:
                     'player': result['player'],
                     'totalPoints': result['points'],
                     'totalStrokes': result['strokes'],
-                    'events': [event],
+                    'events': [getEventId(event)],
                     'scores': [result]
                 }
             else:
                 playerScores[result['player']['name']]['totalPoints'] += result['points']
                 playerScores[result['player']['name']]['totalStrokes'] += result['strokes']
-                playerScores[result['player']['name']]['events'].append(event)
+                playerScores[result['player']['name']]['events'].append(getEventId(event))
                 playerScores[result['player']['name']]['scores'].append(result)
     
     return [v for _,v in playerScores.items()]
