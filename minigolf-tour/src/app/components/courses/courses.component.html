@@ -1,1 +1,32 @@
-<p>courses works!</p>
+<h1>Courses</h1>
+<table mat-table [dataSource]="courses" class="mat-elevation-z8">
+    <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef>Name</th>
+        <td mat-cell *matCellDef="let course">{{course.name}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="ID">
+        <th mat-header-cell *matHeaderCellDef>ID</th>
+        <td mat-cell *matCellDef="let course">{{course.id}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Holes">
+        <th mat-header-cell *matHeaderCellDef>Number Of Holes</th>
+        <td mat-cell *matCellDef="let course">{{course.holes.length}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Par">
+        <th mat-header-cell *matHeaderCellDef>Par</th>
+        <td mat-cell *matCellDef="let course">{{course.par}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Details">
+        <th mat-header-cell *matHeaderCellDef>Details</th>
+        <td mat-cell *matCellDef="let course">
+            <a mat-stroked-button href="/courses/{{course.id}}" color="primary">Details</a>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+    <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
+</table>

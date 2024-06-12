@@ -20,6 +20,11 @@
         <td mat-cell *matCellDef="let event">{{event.date}}</td>
     </ng-container>
 
+    <ng-container matColumnDef="Number of Players">
+        <th mat-header-cell *matHeaderCellDef>Number Of Players</th>
+        <td mat-cell *matCellDef="let event">{{event.scores.length}}</td>
+    </ng-container>
+
     <ng-container matColumnDef="Details">
         <th mat-header-cell *matHeaderCellDef>Details</th>
         <td mat-cell *matCellDef="let event">

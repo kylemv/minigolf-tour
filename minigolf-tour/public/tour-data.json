@@ -49,13 +49,63 @@
             "id": 11
         }
     ],
+    "courses" : [
+        {
+            "name": "Mitchell's Golf Complex - Monster",
+            "id": 0,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                }
+            ],
+            "par": 70
+        },
+        {
+            "name": "Perry Hall",
+            "id": 1,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                }
+            ],
+            "par": 60
+        },
+        {
+            "name": "Mitchell's Golf Complex - Championship",
+            "id": 2,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                }
+            ],
+            "par": 70
+        },
+        {
+            "name": "Rocky Gorge",
+            "id": 3,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                }
+            ],
+            "par": 70
+        }
+    ],
     "events": [
         {
-            "name" : "Mitchells",
+            "name" : "Mitchells Monster",
             "date" : "2024-06-09",
             "id" : 0,
             "course" : {
-                "name": "Mitchell's Golf Complex",
+                "name": "Mitchell's Golf Complex - Monster",
                 "id" : 0,
                 "holes" : [],
                 "par" : 70
@@ -227,6 +277,112 @@
                     "strokes" : 65
                 }
             ]           
+        },
+        {
+            "name" : "Mitchells Championship",
+            "date" : "2024-06-02",
+            "id" : 2,
+            "course" : {
+                "name": "Mitchell's Golf Complex - Championship",
+                "id" : 2,
+                "holes" : [],
+                "par" : 70
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 76
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 75
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 74
+                }
+            ]
+        },
+        {
+            "name" : "Rocky Gorge",
+            "date" : "2024-05-25",
+            "id" : 3,
+            "course" : {
+                "name": "Rocky Gorge",
+                "id" : 2,
+                "holes" : [],
+                "par" : 70
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 55
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 53
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 53
+                },
+                {
+                    "player" : {
+                        "name" : "Adan",
+                        "id": 11
+                    },
+                    "scores" : [],
+                    "strokes" : 56
+                },
+                {
+                    "player" : {
+                        "name" : "Delanie",
+                        "id": 3
+                    },
+                    "scores" : [],
+                    "strokes" : 63
+                },
+                {
+                    "player" : {
+                        "name" : "Graham",
+                        "id": 2
+                    },
+                    "scores" : [],
+                    "strokes" : 56
+                },
+                {
+                    "player" : {
+                        "name" : "Luke",
+                        "id": 4
+                    },
+                    "scores" : [],
+                    "strokes" : 54
+                }
+            ]
         }
     ]
 }

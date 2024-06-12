@@ -5,7 +5,18 @@ export interface EventScore
 {
     player: Player;
 
-    scores: HoleScore[];
+    // scores: HoleScore[];
 
     strokes: Number;
+}
+
+export interface EventResult
+{
+    player: Player;
+
+    strokes: Number;
+
+    place: Number;
+
+    points: Number;
 }

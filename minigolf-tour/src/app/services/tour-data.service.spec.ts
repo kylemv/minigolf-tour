@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { LeaderboardService } from './leaderboard.service';
+import { TourDataService } from './tour-data.service';
 
-describe('LeaderboardService', () => {
-  let service: LeaderboardService;
+describe('TourDataService', () => {
+  let service: TourDataService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(LeaderboardService);
+    service = TestBed.inject(TourDataService);
   });
 
   it('should be created', () => {
