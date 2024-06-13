@@ -1,0 +1,37 @@
+<h2 mat-dialog-title>Add Course</h2>
+<mat-dialog-content>
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input type="text" matInput [(ngModel)]="data.name">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Par</mat-label>
+        <input type="number" matInput [(ngModel)]="data.par">
+    </mat-form-field>
+
+    <br/>
+
+    <mat-label>Holes</mat-label>
+
+    <button mat-button (click)="addHoles(9)">Quick Set 9</button>
+    <button mat-button (click)="addHoles(18)">Quick Set 18</button>
+
+    <mat-divider></mat-divider>
+                  
+    <mat-list role="list">
+    @for (hole of data.holes; track hole) {
+        <mat-list-item role="listitem">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    hole.name
+                </mat-expansion-panel-header>
+            </mat-expansion-panel>
+        </mat-list-item>
+    }
+    </mat-list>
+      
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>OK</button>
+</mat-dialog-actions>

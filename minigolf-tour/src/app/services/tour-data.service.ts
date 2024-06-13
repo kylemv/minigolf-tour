@@ -28,6 +28,31 @@ export class TourDataService {
         this.leaderBoard = leaderboard
     }
 
+    addCourse(course: Course): Course {
+        this.courseList.sort((a,b) => a.id > b.id ? 1 : a.id < b.id ? -1 : 0)
+        
+        course.id = this.courseList[this.courseList.length - 1].id.valueOf() + 1;
+        
+        this.courseList.push(course);
+        
+        return course;
+    }
+
+    addPlayer(playerName: String): Player {
+        this.playerList.sort((a,b) => a.id > b.id ? 1 : a.id < b.id ? -1 : 0)
+
+        let id: Number = this.playerList[this.playerList.length - 1].id.valueOf() + 1;
+
+        this.playerList.push({
+            name: playerName,
+            id: id
+        })
+
+        console.log(playerName + ' ' + id)
+
+        return this.playerList[this.playerList.length - 1];
+    }
+
     getCourses(): Course[] {
         return this.courseList;
     }
