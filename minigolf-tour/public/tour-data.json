@@ -97,6 +97,58 @@
                 }
             ],
             "par": 70
+        },
+        {
+            "name": "Top Dog Golf Center",
+            "id": 4,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 4
+                }
+            ],
+            "par": 55
         }
     ],
     "events": [
@@ -381,6 +433,59 @@
                     },
                     "scores" : [],
                     "strokes" : 54
+                }
+            ]
+        },
+        {
+            "name" : "Bel Air Golf Center",
+            "date" : "2024-06-15",
+            "id" : 2,
+            "course" : {
+                "name": "Top Dog Golf Center",
+                "id" : 4,
+                "holes" : [],
+                "par" : 55
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 45
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 56
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 55
+                },
+                {
+                    "player" : {
+                        "name" : "Graham",
+                        "id": 2
+                    },
+                    "scores" : [],
+                    "strokes" : 50
+                },
+                {
+                    "player" : {
+                        "name" : "Luke",
+                        "id": 4
+                    },
+                    "scores" : [],
+                    "strokes" : 55
                 }
             ]
         }
