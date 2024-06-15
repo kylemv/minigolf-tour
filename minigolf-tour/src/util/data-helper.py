@@ -76,7 +76,7 @@ def getScoreLeader(scoreBoard: list[dict],
     scoreLeaderboard : list[dict] = []
 
     for playerScore in scoreBoard:
-        pts = (playerScore['totalPoints'] / numEvents + 0.05*len(playerScore['events']))
+        pts = round(playerScore['totalPoints'] / numEvents + 0.05*len(playerScore['events']), 5)
         scoreLeaderboard.append({
             'player': playerScore['player'],
             'score': pts,
