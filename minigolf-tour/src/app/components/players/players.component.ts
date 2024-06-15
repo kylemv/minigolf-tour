@@ -41,7 +41,7 @@ export class PlayersComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit(): void {
         this.sort.sortChange.subscribe(() => {
-            this.reSort()
+            this.reSort();
         });
     }
 

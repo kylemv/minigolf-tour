@@ -52,10 +52,11 @@ export class AddCourseDialogComponent {
 
         if (num >= this.data.holes.length) {
             for (let n = this.data.holes.length ; n < num; n++) {
+                let num = n+1
                 this.data.holes.push(
                     {
-                        name: 'New Hole',
-                        number: n+1,
+                        name: 'New Hole ' + num ,
+                        number: num,
                         par: 4
                     }
                 );

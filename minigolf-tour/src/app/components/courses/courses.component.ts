@@ -64,6 +64,6 @@ export class CoursesComponent implements OnInit, AfterViewInit {
 
     upload(course: Course): void {
         console.log(course);
-        this.courses.push(this.dataService.addCourse(course));
+        this.dataService.addCourse(course);
     }
 }
