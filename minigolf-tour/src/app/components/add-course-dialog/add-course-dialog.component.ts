@@ -54,7 +54,7 @@ export class AddCourseDialogComponent {
             for (let n = this.data.holes.length ; n < num; n++) {
                 this.data.holes.push(
                     {
-                        name: 'Hole ' + n,
+                        name: 'New Hole',
                         number: n+1,
                         par: 4
                     }
@@ -67,5 +67,14 @@ export class AddCourseDialogComponent {
                 this.data.holes.pop();
             }
         }
+        this.updatePar();
+    }
+
+    updatePar(): void {
+        let par = 0;
+        for (let hole of this.data.holes) {
+            par += hole.par.valueOf();
+        }
+        this.data.par = par;
     }
 }

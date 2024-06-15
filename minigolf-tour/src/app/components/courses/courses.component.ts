@@ -50,7 +50,11 @@ export class CoursesComponent implements OnInit, AfterViewInit {
             holes: []
         };
 
-        const dialogRef = this.dialog.open(AddCourseDialogComponent, { height: '400px', data: { course: newCourse}});
+        const dialogRef = this.dialog.open(AddCourseDialogComponent, {
+            height: 'auto',
+            width: '60%',
+            data: { course: newCourse}
+        });
 
         dialogRef.afterClosed().subscribe(result => {
             this.upload(result);
