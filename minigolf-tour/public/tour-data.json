@@ -149,6 +149,58 @@
                 }
             ],
             "par": 55
+        },
+        {
+            "name": "The Dugout",
+            "id": 5,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 4
+                }
+            ],
+            "par": 55
         }
     ],
     "events": [
@@ -486,6 +538,67 @@
                     },
                     "scores" : [],
                     "strokes" : 55
+                }
+            ]
+        },
+        {
+            "name" : "The Dugout",
+            "date" : "2024-06-22",
+            "id" : 5,
+            "course" : {
+                "name": "The Dugout",
+                "id" : 5,
+                "holes" : [],
+                "par" : 55
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 44
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 48
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 49
+                },
+                {
+                    "player" : {
+                        "name" : "Luke",
+                        "id": 4
+                    },
+                    "scores" : [],
+                    "strokes" : 47
+                },
+                {
+                    "player" : {
+                        "name" : "Graham",
+                        "id": 2
+                    },
+                    "scores" : [],
+                    "strokes" : 49
+                },
+                {
+                    "player" : {
+                        "name" : "Delanie",
+                        "id": 3
+                    },
+                    "scores" : [],
+                    "strokes" : 48
                 }
             ]
         }
