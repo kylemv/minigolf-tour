@@ -149,6 +149,58 @@
                 }
             ],
             "par": 55
+        },
+        {
+            "name": "The Dugout",
+            "id": 5,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 4
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 4
+                }
+            ],
+            "par": 55
         }
     ],
     "events": [
@@ -804,6 +856,123 @@
                     "strokes": 56
                 }
             ]
+        },
+        {
+            "name": "The Dugout",
+            "date": "2024-06-22",
+            "id": 5,
+            "course": {
+                "name": "The Dugout",
+                "id": 5,
+                "holes": [],
+                "par": 55
+            },
+            "scores": [
+                {
+                    "player": {
+                        "name": "Mike",
+                        "id": 0
+                    },
+                    "scores": [],
+                    "strokes": 44
+                },
+                {
+                    "player": {
+                        "name": "Luke",
+                        "id": 4
+                    },
+                    "scores": [],
+                    "strokes": 47
+                },
+                {
+                    "player": {
+                        "name": "Ryan",
+                        "id": 7
+                    },
+                    "scores": [],
+                    "strokes": 48
+                },
+                {
+                    "player": {
+                        "name": "Delanie",
+                        "id": 3
+                    },
+                    "scores": [],
+                    "strokes": 48
+                },
+                {
+                    "player": {
+                        "name": "Megan",
+                        "id": 8
+                    },
+                    "scores": [],
+                    "strokes": 49
+                },
+                {
+                    "player": {
+                        "name": "Graham",
+                        "id": 2
+                    },
+                    "scores": [],
+                    "strokes": 49
+                }
+            ],
+            "results": [
+                {
+                    "points": 6,
+                    "place": 1,
+                    "player": {
+                        "name": "Mike",
+                        "id": 0
+                    },
+                    "strokes": 44
+                },
+                {
+                    "points": 5,
+                    "place": 2,
+                    "player": {
+                        "name": "Luke",
+                        "id": 4
+                    },
+                    "strokes": 47
+                },
+                {
+                    "points": 3.5,
+                    "place": 3,
+                    "player": {
+                        "name": "Ryan",
+                        "id": 7
+                    },
+                    "strokes": 48
+                },
+                {
+                    "points": 3.5,
+                    "place": 3,
+                    "player": {
+                        "name": "Delanie",
+                        "id": 3
+                    },
+                    "strokes": 48
+                },
+                {
+                    "points": 1.5,
+                    "place": 5,
+                    "player": {
+                        "name": "Megan",
+                        "id": 8
+                    },
+                    "strokes": 49
+                },
+                {
+                    "points": 1.5,
+                    "place": 5,
+                    "player": {
+                        "name": "Graham",
+                        "id": 2
+                    },
+                    "strokes": 49
+                }
+            ]
         }
     ],
     "scoreBoard": [
@@ -812,8 +981,8 @@
                 "name": "Mike",
                 "id": 0
             },
-            "totalPoints": 25,
-            "totalStrokes": 300,
+            "totalPoints": 31,
+            "totalStrokes": 344,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -839,6 +1008,11 @@
                     "name": "Bel Air Golf Center",
                     "date": "2024-06-15",
                     "id": 4
+                },
+                {
+                    "name": "The Dugout",
+                    "date": "2024-06-22",
+                    "id": 5
                 }
             ],
             "scores": [
@@ -886,6 +1060,15 @@
                         "id": 0
                     },
                     "strokes": 45
+                },
+                {
+                    "points": 6,
+                    "place": 1,
+                    "player": {
+                        "name": "Mike",
+                        "id": 0
+                    },
+                    "strokes": 44
                 }
             ]
         },
@@ -920,8 +1103,8 @@
                 "name": "Graham",
                 "id": 2
             },
-            "totalPoints": 22.5,
-            "totalStrokes": 236,
+            "totalPoints": 24.0,
+            "totalStrokes": 285,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -942,6 +1125,11 @@
                     "name": "Bel Air Golf Center",
                     "date": "2024-06-15",
                     "id": 4
+                },
+                {
+                    "name": "The Dugout",
+                    "date": "2024-06-22",
+                    "id": 5
                 }
             ],
             "scores": [
@@ -980,6 +1168,15 @@
                         "id": 2
                     },
                     "strokes": 50
+                },
+                {
+                    "points": 1.5,
+                    "place": 5,
+                    "player": {
+                        "name": "Graham",
+                        "id": 2
+                    },
+                    "strokes": 49
                 }
             ]
         },
@@ -988,8 +1185,8 @@
                 "name": "Delanie",
                 "id": 3
             },
-            "totalPoints": 11,
-            "totalStrokes": 209,
+            "totalPoints": 14.5,
+            "totalStrokes": 257,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1005,6 +1202,11 @@
                     "name": "Rocky Gorge",
                     "date": "2024-05-25",
                     "id": 3
+                },
+                {
+                    "name": "The Dugout",
+                    "date": "2024-06-22",
+                    "id": 5
                 }
             ],
             "scores": [
@@ -1034,6 +1236,15 @@
                         "id": 3
                     },
                     "strokes": 63
+                },
+                {
+                    "points": 3.5,
+                    "place": 3,
+                    "player": {
+                        "name": "Delanie",
+                        "id": 3
+                    },
+                    "strokes": 48
                 }
             ]
         },
@@ -1042,8 +1253,8 @@
                 "name": "Luke",
                 "id": 4
             },
-            "totalPoints": 20.0,
-            "totalStrokes": 247,
+            "totalPoints": 25.0,
+            "totalStrokes": 294,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1064,6 +1275,11 @@
                     "name": "Bel Air Golf Center",
                     "date": "2024-06-15",
                     "id": 4
+                },
+                {
+                    "name": "The Dugout",
+                    "date": "2024-06-22",
+                    "id": 5
                 }
             ],
             "scores": [
@@ -1102,6 +1318,15 @@
                         "id": 4
                     },
                     "strokes": 55
+                },
+                {
+                    "points": 5,
+                    "place": 2,
+                    "player": {
+                        "name": "Luke",
+                        "id": 4
+                    },
+                    "strokes": 47
                 }
             ]
         },
@@ -1176,8 +1401,8 @@
                 "name": "Ryan",
                 "id": 7
             },
-            "totalPoints": 19.5,
-            "totalStrokes": 325,
+            "totalPoints": 23.0,
+            "totalStrokes": 373,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1203,6 +1428,11 @@
                     "name": "Bel Air Golf Center",
                     "date": "2024-06-15",
                     "id": 4
+                },
+                {
+                    "name": "The Dugout",
+                    "date": "2024-06-22",
+                    "id": 5
                 }
             ],
             "scores": [
@@ -1250,6 +1480,15 @@
                         "id": 7
                     },
                     "strokes": 56
+                },
+                {
+                    "points": 3.5,
+                    "place": 3,
+                    "player": {
+                        "name": "Ryan",
+                        "id": 7
+                    },
+                    "strokes": 48
                 }
             ]
         },
@@ -1258,8 +1497,8 @@
                 "name": "Megan",
                 "id": 8
             },
-            "totalPoints": 23.0,
-            "totalStrokes": 323,
+            "totalPoints": 24.5,
+            "totalStrokes": 372,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1285,6 +1524,11 @@
                     "name": "Bel Air Golf Center",
                     "date": "2024-06-15",
                     "id": 4
+                },
+                {
+                    "name": "The Dugout",
+                    "date": "2024-06-22",
+                    "id": 5
                 }
             ],
             "scores": [
@@ -1332,6 +1576,15 @@
                         "id": 8
                     },
                     "strokes": 55
+                },
+                {
+                    "points": 1.5,
+                    "place": 5,
+                    "player": {
+                        "name": "Megan",
+                        "id": 8
+                    },
+                    "strokes": 49
                 }
             ]
         },
@@ -1434,15 +1687,15 @@
                 "name": "Mike",
                 "id": 0
             },
-            "score": 5.25,
-            "numberOfEvents": 5
+            "score": 5.467,
+            "numberOfEvents": 6
         },
         {
             "player": {
                 "name": "Kyle",
                 "id": 1
             },
-            "score": 2.05,
+            "score": 1.717,
             "numberOfEvents": 1
         },
         {
@@ -1450,31 +1703,31 @@
                 "name": "Graham",
                 "id": 2
             },
-            "score": 4.7,
-            "numberOfEvents": 4
+            "score": 4.25,
+            "numberOfEvents": 5
         },
         {
             "player": {
                 "name": "Delanie",
                 "id": 3
             },
-            "score": 2.35,
-            "numberOfEvents": 3
+            "score": 2.617,
+            "numberOfEvents": 4
         },
         {
             "player": {
                 "name": "Luke",
                 "id": 4
             },
-            "score": 4.2,
-            "numberOfEvents": 4
+            "score": 4.417,
+            "numberOfEvents": 5
         },
         {
             "player": {
                 "name": "Daniel",
                 "id": 5
             },
-            "score": 1.25,
+            "score": 1.05,
             "numberOfEvents": 1
         },
         {
@@ -1482,7 +1735,7 @@
                 "name": "Austin",
                 "id": 6
             },
-            "score": 1.2,
+            "score": 1.017,
             "numberOfEvents": 2
         },
         {
@@ -1490,23 +1743,23 @@
                 "name": "Ryan",
                 "id": 7
             },
-            "score": 4.15,
-            "numberOfEvents": 5
+            "score": 4.133,
+            "numberOfEvents": 6
         },
         {
             "player": {
                 "name": "Megan",
                 "id": 8
             },
-            "score": 4.85,
-            "numberOfEvents": 5
+            "score": 4.383,
+            "numberOfEvents": 6
         },
         {
             "player": {
                 "name": "Jocelyn",
                 "id": 9
             },
-            "score": 0.35,
+            "score": 0.3,
             "numberOfEvents": 1
         },
         {
@@ -1514,7 +1767,7 @@
                 "name": "Natalie",
                 "id": 10
             },
-            "score": 0.35,
+            "score": 0.3,
             "numberOfEvents": 1
         },
         {
@@ -1522,7 +1775,7 @@
                 "name": "Adan",
                 "id": 11
             },
-            "score": 1.2,
+            "score": 1.017,
             "numberOfEvents": 2
         }
     ]
