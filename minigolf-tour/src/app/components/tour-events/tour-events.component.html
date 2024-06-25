@@ -1,6 +1,6 @@
 <h1>Tour Events</h1>
 <mat-toolbar>
-    <button mat-raised-button (click)="addTourEventDialog()" color="primary">Add Tour Event</button>
+    <button mat-raised-button (click)="addTourEventDialog()" color="primary" disabled="true">Add Tour Event</button>
 </mat-toolbar>
 <table mat-table [dataSource]="events" class="mat-elevation-z8" matSort>
     <ng-container matColumnDef="Name">

@@ -1,6 +1,6 @@
 <h1>Courses</h1>
 <mat-toolbar>
-    <button mat-raised-button (click)="addCourseDialog()" color="primary">Add Course</button>
+    <button mat-raised-button (click)="addCourseDialog()" color="primary" disabled="true">Add Course</button>
 </mat-toolbar>
 <table mat-table [dataSource]="courses" class="mat-elevation-z8">
     <ng-container matColumnDef="Name">

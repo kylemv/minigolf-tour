@@ -1,6 +1,6 @@
 <h1>Players</h1>
 <mat-toolbar>
-    <button mat-raised-button (click)="addPlayerDialog()" color="primary">Add Player</button>
+    <button mat-raised-button (click)="addPlayerDialog()" color="primary" disabled="true">Add Player</button>
 </mat-toolbar>
 <table mat-table [dataSource]="players" class="mat-elevation-z8" matSort>
     <ng-container matColumnDef="Name">
