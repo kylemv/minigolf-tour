@@ -72,7 +72,7 @@
                     "par": 4
                 }
             ],
-            "par": 60
+            "par": 45
         },
         {
             "name": "Mitchell's Golf Complex - Championship",
@@ -84,7 +84,7 @@
                     "par": 4
                 }
             ],
-            "par": 70
+            "par": 53
         },
         {
             "name": "Rocky Gorge",
@@ -96,7 +96,7 @@
                     "par": 4
                 }
             ],
-            "par": 70
+            "par": 51
         },
         {
             "name": "Top Dog Golf Center",
@@ -148,7 +148,7 @@
                     "par": 4
                 }
             ],
-            "par": 55
+            "par": 44
         },
         {
             "name": "The Dugout",
@@ -200,7 +200,7 @@
                     "par": 4
                 }
             ],
-            "par": 55
+            "par": 44
         }
     ],
     "events": [
@@ -312,7 +312,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 68
+                    "strokes": 68,
+                    "parScore": -2,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 10,
@@ -321,7 +327,13 @@
                         "name": "Kyle",
                         "id": 1
                     },
-                    "strokes": 77
+                    "strokes": 77,
+                    "parScore": 7,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 9,
@@ -330,7 +342,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 80
+                    "strokes": 80,
+                    "parScore": 10,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 8,
@@ -339,7 +357,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 83
+                    "strokes": 83,
+                    "parScore": 13,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 7,
@@ -348,7 +372,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 84
+                    "strokes": 84,
+                    "parScore": 14,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 6,
@@ -357,7 +387,13 @@
                         "name": "Daniel",
                         "id": 5
                     },
-                    "strokes": 85
+                    "strokes": 85,
+                    "parScore": 15,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 4.5,
@@ -366,7 +402,13 @@
                         "name": "Austin",
                         "id": 6
                     },
-                    "strokes": 87
+                    "strokes": 87,
+                    "parScore": 17,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 4.5,
@@ -375,7 +417,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 87
+                    "strokes": 87,
+                    "parScore": 17,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 3,
@@ -384,7 +432,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 93
+                    "strokes": 93,
+                    "parScore": 23,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 1.5,
@@ -393,7 +447,13 @@
                         "name": "Jocelyn",
                         "id": 9
                     },
-                    "strokes": 100
+                    "strokes": 100,
+                    "parScore": 30,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 1.5,
@@ -402,7 +462,13 @@
                         "name": "Natalie",
                         "id": 10
                     },
-                    "strokes": 100
+                    "strokes": 100,
+                    "parScore": 30,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 }
             ]
         },
@@ -414,7 +480,7 @@
                 "name": "Perry Hall",
                 "id": 1,
                 "holes": [],
-                "par": 70
+                "par": 45
             },
             "scores": [
                 {
@@ -490,7 +556,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 48
+                    "strokes": 48,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 7,
@@ -499,7 +571,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 50
+                    "strokes": 50,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 5.5,
@@ -508,7 +586,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 54
+                    "strokes": 54,
+                    "parScore": 9,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 5.5,
@@ -517,7 +601,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 54
+                    "strokes": 54,
+                    "parScore": 9,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 4,
@@ -526,7 +616,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 11,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 3,
@@ -535,7 +631,13 @@
                         "name": "Adan",
                         "id": 11
                     },
-                    "strokes": 59
+                    "strokes": 59,
+                    "parScore": 14,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 2,
@@ -544,7 +646,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 63
+                    "strokes": 63,
+                    "parScore": 18,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 1,
@@ -553,7 +661,13 @@
                         "name": "Austin",
                         "id": 6
                     },
-                    "strokes": 65
+                    "strokes": 65,
+                    "parScore": 20,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 }
             ]
         },
@@ -565,7 +679,7 @@
                 "name": "Mitchell's Golf Complex - Championship",
                 "id": 2,
                 "holes": [],
-                "par": 70
+                "par": 53
             },
             "scores": [
                 {
@@ -601,7 +715,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 74
+                    "strokes": 74,
+                    "parScore": 21,
+                    "eventId": {
+                        "name": "Mitchells Championship",
+                        "date": "2024-06-02",
+                        "id": 2
+                    }
                 },
                 {
                     "points": 2,
@@ -610,7 +730,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 75
+                    "strokes": 75,
+                    "parScore": 22,
+                    "eventId": {
+                        "name": "Mitchells Championship",
+                        "date": "2024-06-02",
+                        "id": 2
+                    }
                 },
                 {
                     "points": 1,
@@ -619,7 +745,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 76
+                    "strokes": 76,
+                    "parScore": 23,
+                    "eventId": {
+                        "name": "Mitchells Championship",
+                        "date": "2024-06-02",
+                        "id": 2
+                    }
                 }
             ]
         },
@@ -631,7 +763,7 @@
                 "name": "Rocky Gorge",
                 "id": 3,
                 "holes": [],
-                "par": 70
+                "par": 51
             },
             "scores": [
                 {
@@ -699,7 +831,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 53
+                    "strokes": 53,
+                    "parScore": 2,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 6.5,
@@ -708,7 +846,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 53
+                    "strokes": 53,
+                    "parScore": 2,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 5,
@@ -717,7 +861,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 54
+                    "strokes": 54,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 4,
@@ -726,7 +876,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 55
+                    "strokes": 55,
+                    "parScore": 4,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 2.5,
@@ -735,7 +891,13 @@
                         "name": "Adan",
                         "id": 11
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 2.5,
@@ -744,7 +906,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 1,
@@ -753,7 +921,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 63
+                    "strokes": 63,
+                    "parScore": 12,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 }
             ]
         },
@@ -765,7 +939,7 @@
                 "name": "Top Dog Golf Center",
                 "id": 4,
                 "holes": [],
-                "par": 55
+                "par": 44
             },
             "scores": [
                 {
@@ -817,7 +991,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 45
+                    "strokes": 45,
+                    "parScore": 1,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 4,
@@ -826,7 +1006,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 50
+                    "strokes": 50,
+                    "parScore": 6,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 2.5,
@@ -835,7 +1021,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 55
+                    "strokes": 55,
+                    "parScore": 11,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 2.5,
@@ -844,7 +1036,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 55
+                    "strokes": 55,
+                    "parScore": 11,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 1,
@@ -853,7 +1051,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 12,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 }
             ]
         },
@@ -865,7 +1069,7 @@
                 "name": "The Dugout",
                 "id": 5,
                 "holes": [],
-                "par": 55
+                "par": 44
             },
             "scores": [
                 {
@@ -925,7 +1129,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 44
+                    "strokes": 44,
+                    "parScore": 0,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 },
                 {
                     "points": 5,
@@ -934,7 +1144,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 47
+                    "strokes": 47,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 },
                 {
                     "points": 3.5,
@@ -943,7 +1159,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 48
+                    "strokes": 48,
+                    "parScore": 4,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 },
                 {
                     "points": 3.5,
@@ -952,7 +1174,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 48
+                    "strokes": 48,
+                    "parScore": 4,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 },
                 {
                     "points": 1.5,
@@ -961,7 +1189,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 49
+                    "strokes": 49,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 },
                 {
                     "points": 1.5,
@@ -970,7 +1204,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 49
+                    "strokes": 49,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         }
@@ -983,6 +1223,7 @@
             },
             "totalPoints": 31,
             "totalStrokes": 344,
+            "totalParScore": 37,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1023,7 +1264,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 68
+                    "strokes": 68,
+                    "parScore": -2,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 4,
@@ -1032,7 +1279,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 11,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 1,
@@ -1041,7 +1294,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 76
+                    "strokes": 76,
+                    "parScore": 23,
+                    "eventId": {
+                        "name": "Mitchells Championship",
+                        "date": "2024-06-02",
+                        "id": 2
+                    }
                 },
                 {
                     "points": 4,
@@ -1050,7 +1309,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 55
+                    "strokes": 55,
+                    "parScore": 4,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 5,
@@ -1059,7 +1324,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 45
+                    "strokes": 45,
+                    "parScore": 1,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 6,
@@ -1068,7 +1339,13 @@
                         "name": "Mike",
                         "id": 0
                     },
-                    "strokes": 44
+                    "strokes": 44,
+                    "parScore": 0,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         },
@@ -1079,6 +1356,7 @@
             },
             "totalPoints": 10,
             "totalStrokes": 77,
+            "totalParScore": 7,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1094,7 +1372,13 @@
                         "name": "Kyle",
                         "id": 1
                     },
-                    "strokes": 77
+                    "strokes": 77,
+                    "parScore": 7,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 }
             ]
         },
@@ -1105,6 +1389,7 @@
             },
             "totalPoints": 24.0,
             "totalStrokes": 285,
+            "totalParScore": 31,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1140,7 +1425,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 80
+                    "strokes": 80,
+                    "parScore": 10,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 7,
@@ -1149,7 +1440,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 50
+                    "strokes": 50,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 2.5,
@@ -1158,7 +1455,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 4,
@@ -1167,7 +1470,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 50
+                    "strokes": 50,
+                    "parScore": 6,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 1.5,
@@ -1176,7 +1485,13 @@
                         "name": "Graham",
                         "id": 2
                     },
-                    "strokes": 49
+                    "strokes": 49,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         },
@@ -1187,6 +1502,7 @@
             },
             "totalPoints": 14.5,
             "totalStrokes": 257,
+            "totalParScore": 47,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1217,7 +1533,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 83
+                    "strokes": 83,
+                    "parScore": 13,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 2,
@@ -1226,7 +1548,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 63
+                    "strokes": 63,
+                    "parScore": 18,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 1,
@@ -1235,7 +1563,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 63
+                    "strokes": 63,
+                    "parScore": 12,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 3.5,
@@ -1244,7 +1578,13 @@
                         "name": "Delanie",
                         "id": 3
                     },
-                    "strokes": 48
+                    "strokes": 48,
+                    "parScore": 4,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         },
@@ -1255,6 +1595,7 @@
             },
             "totalPoints": 25.0,
             "totalStrokes": 294,
+            "totalParScore": 40,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1290,7 +1631,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 84
+                    "strokes": 84,
+                    "parScore": 14,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 5.5,
@@ -1299,7 +1646,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 54
+                    "strokes": 54,
+                    "parScore": 9,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 5,
@@ -1308,7 +1661,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 54
+                    "strokes": 54,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 2.5,
@@ -1317,7 +1676,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 55
+                    "strokes": 55,
+                    "parScore": 11,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 5,
@@ -1326,7 +1691,13 @@
                         "name": "Luke",
                         "id": 4
                     },
-                    "strokes": 47
+                    "strokes": 47,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         },
@@ -1337,6 +1708,7 @@
             },
             "totalPoints": 6,
             "totalStrokes": 85,
+            "totalParScore": 15,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1352,7 +1724,13 @@
                         "name": "Daniel",
                         "id": 5
                     },
-                    "strokes": 85
+                    "strokes": 85,
+                    "parScore": 15,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 }
             ]
         },
@@ -1363,6 +1741,7 @@
             },
             "totalPoints": 5.5,
             "totalStrokes": 152,
+            "totalParScore": 37,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1383,7 +1762,13 @@
                         "name": "Austin",
                         "id": 6
                     },
-                    "strokes": 87
+                    "strokes": 87,
+                    "parScore": 17,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 1,
@@ -1392,7 +1777,13 @@
                         "name": "Austin",
                         "id": 6
                     },
-                    "strokes": 65
+                    "strokes": 65,
+                    "parScore": 20,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 }
             ]
         },
@@ -1403,6 +1794,7 @@
             },
             "totalPoints": 23.0,
             "totalStrokes": 373,
+            "totalParScore": 66,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1443,7 +1835,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 87
+                    "strokes": 87,
+                    "parScore": 17,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 5.5,
@@ -1452,7 +1850,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 54
+                    "strokes": 54,
+                    "parScore": 9,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 2,
@@ -1461,7 +1865,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 75
+                    "strokes": 75,
+                    "parScore": 22,
+                    "eventId": {
+                        "name": "Mitchells Championship",
+                        "date": "2024-06-02",
+                        "id": 2
+                    }
                 },
                 {
                     "points": 6.5,
@@ -1470,7 +1880,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 53
+                    "strokes": 53,
+                    "parScore": 2,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 1,
@@ -1479,7 +1895,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 12,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 3.5,
@@ -1488,7 +1910,13 @@
                         "name": "Ryan",
                         "id": 7
                     },
-                    "strokes": 48
+                    "strokes": 48,
+                    "parScore": 4,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         },
@@ -1499,6 +1927,7 @@
             },
             "totalPoints": 24.5,
             "totalStrokes": 372,
+            "totalParScore": 65,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1539,7 +1968,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 93
+                    "strokes": 93,
+                    "parScore": 23,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 },
                 {
                     "points": 8,
@@ -1548,7 +1983,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 48
+                    "strokes": 48,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 3,
@@ -1557,7 +1998,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 74
+                    "strokes": 74,
+                    "parScore": 21,
+                    "eventId": {
+                        "name": "Mitchells Championship",
+                        "date": "2024-06-02",
+                        "id": 2
+                    }
                 },
                 {
                     "points": 6.5,
@@ -1566,7 +2013,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 53
+                    "strokes": 53,
+                    "parScore": 2,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 },
                 {
                     "points": 2.5,
@@ -1575,7 +2028,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 55
+                    "strokes": 55,
+                    "parScore": 11,
+                    "eventId": {
+                        "name": "Bel Air Golf Center",
+                        "date": "2024-06-15",
+                        "id": 4
+                    }
                 },
                 {
                     "points": 1.5,
@@ -1584,7 +2043,13 @@
                         "name": "Megan",
                         "id": 8
                     },
-                    "strokes": 49
+                    "strokes": 49,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "The Dugout",
+                        "date": "2024-06-22",
+                        "id": 5
+                    }
                 }
             ]
         },
@@ -1595,6 +2060,7 @@
             },
             "totalPoints": 1.5,
             "totalStrokes": 100,
+            "totalParScore": 30,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1610,7 +2076,13 @@
                         "name": "Jocelyn",
                         "id": 9
                     },
-                    "strokes": 100
+                    "strokes": 100,
+                    "parScore": 30,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 }
             ]
         },
@@ -1621,6 +2093,7 @@
             },
             "totalPoints": 1.5,
             "totalStrokes": 100,
+            "totalParScore": 30,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -1636,7 +2109,13 @@
                         "name": "Natalie",
                         "id": 10
                     },
-                    "strokes": 100
+                    "strokes": 100,
+                    "parScore": 30,
+                    "eventId": {
+                        "name": "Mitchells Monster",
+                        "date": "2024-06-09",
+                        "id": 0
+                    }
                 }
             ]
         },
@@ -1647,6 +2126,7 @@
             },
             "totalPoints": 5.5,
             "totalStrokes": 115,
+            "totalParScore": 19,
             "events": [
                 {
                     "name": "Perry Hall",
@@ -1667,7 +2147,13 @@
                         "name": "Adan",
                         "id": 11
                     },
-                    "strokes": 59
+                    "strokes": 59,
+                    "parScore": 14,
+                    "eventId": {
+                        "name": "Perry Hall",
+                        "date": "2024-05-11",
+                        "id": 1
+                    }
                 },
                 {
                     "points": 2.5,
@@ -1676,7 +2162,13 @@
                         "name": "Adan",
                         "id": 11
                     },
-                    "strokes": 56
+                    "strokes": 56,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Rocky Gorge",
+                        "date": "2024-05-25",
+                        "id": 3
+                    }
                 }
             ]
         }

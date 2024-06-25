@@ -72,7 +72,7 @@
                     "par": 4
                 }
             ],
-            "par": 60
+            "par": 45
         },
         {
             "name": "Mitchell's Golf Complex - Championship",
@@ -84,7 +84,7 @@
                     "par": 4
                 }
             ],
-            "par": 70
+            "par": 53
         },
         {
             "name": "Rocky Gorge",
@@ -96,7 +96,7 @@
                     "par": 4
                 }
             ],
-            "par": 70
+            "par": 51
         },
         {
             "name": "Top Dog Golf Center",
@@ -148,7 +148,7 @@
                     "par": 4
                 }
             ],
-            "par": 55
+            "par": 44
         },
         {
             "name": "The Dugout",
@@ -200,7 +200,7 @@
                     "par": 4
                 }
             ],
-            "par": 55
+            "par": 44
         }
     ],
     "events": [
@@ -313,7 +313,7 @@
                 "name": "Perry Hall",
                 "id" : 1,
                 "holes" : [],
-                "par" : 70
+                "par" : 45
             },
             "scores" : [
                 {
@@ -390,7 +390,7 @@
                 "name": "Mitchell's Golf Complex - Championship",
                 "id" : 2,
                 "holes" : [],
-                "par" : 70
+                "par" : 53
             },
             "scores" : [
                 {
@@ -427,7 +427,7 @@
                 "name": "Rocky Gorge",
                 "id" : 3,
                 "holes" : [],
-                "par" : 70
+                "par" : 51
             },
             "scores" : [
                 {
@@ -496,7 +496,7 @@
                 "name": "Top Dog Golf Center",
                 "id" : 4,
                 "holes" : [],
-                "par" : 55
+                "par" : 44
             },
             "scores" : [
                 {
@@ -549,7 +549,7 @@
                 "name": "The Dugout",
                 "id" : 5,
                 "holes" : [],
-                "par" : 55
+                "par" : 44
             },
             "scores" : [
                 {
