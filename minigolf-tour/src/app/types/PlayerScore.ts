@@ -13,6 +13,8 @@ export interface PlayerScore
     totalPoints: Number;
 
     totalStrokes: Number;
+
+    totalParScore: Number;
 }
 
 export interface LeaderScore

@@ -20,7 +20,9 @@ def getEventResult(event: dict) -> list[dict]:
             'points': numPlayers-count,
             'place': count+1,
             'player': score['player'],
-            'strokes': score['strokes']
+            'strokes': score['strokes'],
+            'parScore': score['strokes'] - event['course']['par'],
+            'eventId': getEventId(event)
         }
         count+=1
 
@@ -58,12 +60,14 @@ def getPlayerScores(events: list[dict]) -> list[dict]:
                     'player': result['player'],
                     'totalPoints': result['points'],
                     'totalStrokes': result['strokes'],
+                    'totalParScore': result['parScore'],
                     'events': [getEventId(event)],
                     'scores': [result]
                 }
             else:
                 playerScores[result['player']['name']]['totalPoints'] += result['points']
                 playerScores[result['player']['name']]['totalStrokes'] += result['strokes']
+                playerScores[result['player']['name']]['totalParScore'] += result['parScore']
                 playerScores[result['player']['name']]['events'].append(getEventId(event))
                 playerScores[result['player']['name']]['scores'].append(result)
     

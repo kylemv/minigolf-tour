@@ -1,5 +1,6 @@
 import { Player } from './Player'
 import { HoleScore } from './HoleScore'
+import { TourEventId } from './TourEvent';
 
 export interface EventScore
 {
@@ -19,4 +20,8 @@ export interface EventResult
     place: Number;
 
     points: Number;
+
+    parScore: Number;
+
+    eventId: TourEventId
 }
