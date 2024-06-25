@@ -17,7 +17,7 @@ export class TourEventDetailsComponent implements OnInit {
 
     event: TourEvent | undefined;
 
-    displayedColumns: string[] = ['Place', 'Player', 'Strokes', 'Points'];
+    displayedColumns: string[] = ['Place', 'Player', 'Strokes', 'ParScore', 'Points'];
 
     constructor (private route: ActivatedRoute) {}
 

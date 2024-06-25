@@ -22,7 +22,7 @@ export class LeaderboardComponent implements OnInit, AfterViewInit {
 
     displayedColumns: string[] = ['Place', 'Name', 'Score', 'Number of Events'];
 
-    scoreLeaderDisplayedColumns: string[] = ['place', 'name', 'totalPoints', 'strokes', 'events'];
+    scoreLeaderDisplayedColumns: string[] = ['place', 'name', 'totalPoints', 'strokes', 'totalParScore', 'events'];
 
     leaderboardSource = new MatTableDataSource<LeaderScore>();
     scoreboardSource = new MatTableDataSource<PlayerScore>();
@@ -80,6 +80,12 @@ export class LeaderboardComponent implements OnInit, AfterViewInit {
             case "strokes": {
                 this.scoreBoard.sort(
                     (a,b) => a.totalStrokes < b.totalStrokes ? ltVal : a.totalStrokes > b.totalStrokes ? -1*ltVal : 0
+                );
+                break;
+            }
+            case "totalParScore": {
+                this.scoreBoard.sort(
+                    (a,b) => a.totalParScore < b.totalParScore ? ltVal : a.totalParScore > b.totalParScore ? -1*ltVal : 0
                 );
                 break;
             }
