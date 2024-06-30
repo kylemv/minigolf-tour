@@ -201,6 +201,103 @@
                 }
             ],
             "par": 44
+        },
+        {
+            "name": "Columbia Sports Park",
+            "id": 6,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 10,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 11,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 12,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 13,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 14,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 15,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 16,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 17,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 18,
+                    "par": 3
+                }
+            ],
+            "par": 54
         }
     ],
     "events": [
@@ -599,6 +696,67 @@
                     },
                     "scores" : [],
                     "strokes" : 48
+                }
+            ]
+        },
+        {
+            "name" : "Columbia Sports Park",
+            "date" : "2024-06-30",
+            "id" : 6,
+            "course" : {
+                "name": "Columbia Sports Park",
+                "id" : 6,
+                "holes" : [],
+                "par" : 54
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 57
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 52
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 63
+                },
+                {
+                    "player" : {
+                        "name" : "Luke",
+                        "id": 4
+                    },
+                    "scores" : [],
+                    "strokes" : 48
+                },
+                {
+                    "player" : {
+                        "name" : "Graham",
+                        "id": 2
+                    },
+                    "scores" : [],
+                    "strokes" : 53
+                },
+                {
+                    "player" : {
+                        "name" : "Delanie",
+                        "id": 3
+                    },
+                    "scores" : [],
+                    "strokes" : 49
                 }
             ]
         }
