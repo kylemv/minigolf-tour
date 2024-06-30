@@ -1,5 +1,5 @@
 import { AfterViewInit, OnInit, Component,inject, ViewChild } from '@angular/core';
-
+import { DecimalPipe } from '@angular/common';
 import { MatTable, MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatTabChangeEvent, MatTabsModule } from '@angular/material/tabs';
 import { MatSort, MatSortModule} from '@angular/material/sort';
@@ -10,7 +10,7 @@ import { TourDataService } from '../../services/tour-data.service';
 @Component({
   selector: 'app-leaderboard',
   standalone: true,
-  imports: [MatTableModule, MatTabsModule, MatSortModule],
+  imports: [MatTableModule, MatTabsModule, MatSortModule, DecimalPipe],
   templateUrl: './leaderboard.component.html',
   styleUrl: './leaderboard.component.css'
 })
@@ -22,7 +22,7 @@ export class LeaderboardComponent implements OnInit, AfterViewInit {
 
     displayedColumns: string[] = ['Place', 'Name', 'Score', 'Number of Events'];
 
-    scoreLeaderDisplayedColumns: string[] = ['place', 'name', 'totalPoints', 'strokes', 'totalParScore', 'events'];
+    scoreLeaderDisplayedColumns: string[] = ['place', 'name', 'totalPoints', 'strokes', 'totalParScore', 'avgParScore', 'events'];
 
     leaderboardSource = new MatTableDataSource<LeaderScore>();
     scoreboardSource = new MatTableDataSource<PlayerScore>();
@@ -37,7 +37,10 @@ export class LeaderboardComponent implements OnInit, AfterViewInit {
         this.leaderboard = this.dataService.getLeaderboard();
         this.scoreBoard = this.dataService.getScoreBoard();
 
-        this.scoreBoard.sort((a,b) => a.totalPoints < b.totalPoints ? 1 : a.totalPoints > b.totalPoints ? -1 : 0)
+        this.scoreBoard.sort(
+            (a,b) => (a.totalParScore.valueOf() / a.events.length) < (b.totalParScore.valueOf() / b.events.length) ? -1 : (a.totalParScore.valueOf() / a.events.length) > (b.totalParScore.valueOf() / b.events.length) ? 1 : 0
+        );
+
         this.leaderboard.sort((a,b) => a.score < b.score ? 1 : a.score > b.score ? -1 : 0)
 
         this.leaderboardSource = new MatTableDataSource(this.leaderboard);
@@ -89,6 +92,12 @@ export class LeaderboardComponent implements OnInit, AfterViewInit {
                 );
                 break;
             }
+            case "avgParScore": {
+                this.scoreBoard.sort(
+                    (a,b) => (a.totalParScore.valueOf() / a.events.length) < (b.totalParScore.valueOf() / b.events.length) ? ltVal : (a.totalParScore.valueOf() / a.events.length) > (b.totalParScore.valueOf() / b.events.length) ? -1*ltVal : 0
+                );
+                break;
+            }
             case "events": {
                 this.scoreBoard.sort(
                     (a,b) => a.events.length < b.events.length ? ltVal : a.events.length > b.events.length ? -1*ltVal : 0
@@ -100,6 +109,6 @@ export class LeaderboardComponent implements OnInit, AfterViewInit {
             }
         }
 
-        
+        this.scoreboardSource.data = this.scoreBoard;
     }
 }

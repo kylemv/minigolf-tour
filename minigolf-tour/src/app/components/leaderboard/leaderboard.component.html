@@ -60,6 +60,10 @@
             <th mat-header-cell *matHeaderCellDef mat-sort-header>Total Par Score</th>
             <td mat-cell *matCellDef="let element">{{element.totalParScore}}</td>
         </ng-container>
+        <ng-container matColumnDef="avgParScore">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Average Par Score</th>
+            <td mat-cell *matCellDef="let element">{{element.totalParScore / element.events.length | number: '1.0-2'}}</td>
+        </ng-container>
         <ng-container matColumnDef="events">
             <th mat-header-cell *matHeaderCellDef mat-sort-header>Number of Events</th>
             <td mat-cell *matCellDef="let element">{{element.events.length}}</td>
