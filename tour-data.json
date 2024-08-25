@@ -395,6 +395,103 @@
                 }
             ],
             "par": 45
+        },
+        {
+            "name": "Hereford Golf Center",
+            "id": 8,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 10,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 11,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 12,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 13,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 14,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 15,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 16,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 17,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 18,
+                    "par": 3
+                }
+            ],
+            "par": 45
         }
     ],
     "events": [
@@ -899,6 +996,75 @@
                     },
                     "scores" : [],
                     "strokes" : 59
+                }
+            ]
+        },
+        {
+            "name" : "Hereford Golf Center",
+            "date" : "2024-08-24",
+            "id" : 8,
+            "course" : {
+                "name": "Hereford Golf Center",
+                "id" : 8,
+                "holes" : [],
+                "par" : 45
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 59
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 58
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 54
+                },
+                {
+                    "player" : {
+                        "name" : "Luke",
+                        "id": 4
+                    },
+                    "scores" : [],
+                    "strokes" : 46
+                },
+                {
+                    "player" : {
+                        "name" : "Graham",
+                        "id": 2
+                    },
+                    "scores" : [],
+                    "strokes" : 53
+                },
+                {
+                    "player" : {
+                        "name" : "Delanie",
+                        "id": 3
+                    },
+                    "scores" : [],
+                    "strokes" : 61
+                },
+                {
+                    "player" : {
+                        "name" : "Natalie",
+                        "id": 10
+                    },
+                    "scores" : [],
+                    "strokes" : 64
                 }
             ]
         }
