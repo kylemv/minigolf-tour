@@ -589,6 +589,103 @@
                 }
             ],
             "par": 40
+        },
+        {
+            "name": "Night Hawk Golf Center",
+            "id": 10,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 10,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 11,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 12,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 13,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 14,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 15,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 16,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 17,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 18,
+                    "par": 3
+                }
+            ],
+            "par": 45
         }
     ],
     "events": [
@@ -2167,6 +2264,182 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Night Hawk Golf Center",
+            "date": "2024-09-09",
+            "id": 10,
+            "course": {
+                "name": "Night Hawk Golf Center",
+                "id": 10,
+                "holes": [],
+                "par": 45
+            },
+            "scores": [
+                {
+                    "player": {
+                        "name": "Ryan",
+                        "id": 7
+                    },
+                    "scores": [],
+                    "strokes": 42
+                },
+                {
+                    "player": {
+                        "name": "Graham",
+                        "id": 2
+                    },
+                    "scores": [],
+                    "strokes": 42
+                },
+                {
+                    "player": {
+                        "name": "Luke",
+                        "id": 4
+                    },
+                    "scores": [],
+                    "strokes": 43
+                },
+                {
+                    "player": {
+                        "name": "Natalie",
+                        "id": 10
+                    },
+                    "scores": [],
+                    "strokes": 48
+                },
+                {
+                    "player": {
+                        "name": "Mike",
+                        "id": 0
+                    },
+                    "scores": [],
+                    "strokes": 50
+                },
+                {
+                    "player": {
+                        "name": "Megan",
+                        "id": 8
+                    },
+                    "scores": [],
+                    "strokes": 51
+                },
+                {
+                    "player": {
+                        "name": "Delanie",
+                        "id": 3
+                    },
+                    "scores": [],
+                    "strokes": 53
+                }
+            ],
+            "results": [
+                {
+                    "points": 6.5,
+                    "place": 1,
+                    "player": {
+                        "name": "Ryan",
+                        "id": 7
+                    },
+                    "strokes": 42,
+                    "parScore": -3,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                },
+                {
+                    "points": 6.5,
+                    "place": 1,
+                    "player": {
+                        "name": "Graham",
+                        "id": 2
+                    },
+                    "strokes": 42,
+                    "parScore": -3,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                },
+                {
+                    "points": 5,
+                    "place": 3,
+                    "player": {
+                        "name": "Luke",
+                        "id": 4
+                    },
+                    "strokes": 43,
+                    "parScore": -2,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                },
+                {
+                    "points": 4,
+                    "place": 4,
+                    "player": {
+                        "name": "Natalie",
+                        "id": 10
+                    },
+                    "strokes": 48,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                },
+                {
+                    "points": 3,
+                    "place": 5,
+                    "player": {
+                        "name": "Mike",
+                        "id": 0
+                    },
+                    "strokes": 50,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                },
+                {
+                    "points": 2,
+                    "place": 6,
+                    "player": {
+                        "name": "Megan",
+                        "id": 8
+                    },
+                    "strokes": 51,
+                    "parScore": 6,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                },
+                {
+                    "points": 1,
+                    "place": 7,
+                    "player": {
+                        "name": "Delanie",
+                        "id": 3
+                    },
+                    "strokes": 53,
+                    "parScore": 8,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
+                }
+            ]
         }
     ],
     "scoreBoard": [
@@ -2175,9 +2448,9 @@
                 "name": "Mike",
                 "id": 0
             },
-            "totalPoints": 43,
-            "totalStrokes": 563,
-            "totalParScore": 72,
+            "totalPoints": 46,
+            "totalStrokes": 613,
+            "totalParScore": 77,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -2228,6 +2501,11 @@
                     "name": "Churchville Original",
                     "date": "2024-09-02",
                     "id": 9
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -2380,6 +2658,21 @@
                         "date": "2024-09-02",
                         "id": 9
                     }
+                },
+                {
+                    "points": 3,
+                    "place": 5,
+                    "player": {
+                        "name": "Mike",
+                        "id": 0
+                    },
+                    "strokes": 50,
+                    "parScore": 5,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
                 }
             ]
         },
@@ -2421,9 +2714,9 @@
                 "name": "Graham",
                 "id": 2
             },
-            "totalPoints": 39.5,
-            "totalStrokes": 494,
-            "totalParScore": 56,
+            "totalPoints": 46.0,
+            "totalStrokes": 536,
+            "totalParScore": 53,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -2469,6 +2762,11 @@
                     "name": "Churchville Original",
                     "date": "2024-09-02",
                     "id": 9
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -2606,6 +2904,21 @@
                         "date": "2024-09-02",
                         "id": 9
                     }
+                },
+                {
+                    "points": 6.5,
+                    "place": 1,
+                    "player": {
+                        "name": "Graham",
+                        "id": 2
+                    },
+                    "strokes": 42,
+                    "parScore": -3,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
                 }
             ]
         },
@@ -2614,9 +2927,9 @@
                 "name": "Delanie",
                 "id": 3
             },
-            "totalPoints": 27.0,
-            "totalStrokes": 472,
-            "totalParScore": 78,
+            "totalPoints": 28.0,
+            "totalStrokes": 525,
+            "totalParScore": 86,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -2657,6 +2970,11 @@
                     "name": "Churchville Original",
                     "date": "2024-09-02",
                     "id": 9
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -2779,6 +3097,21 @@
                         "date": "2024-09-02",
                         "id": 9
                     }
+                },
+                {
+                    "points": 1,
+                    "place": 7,
+                    "player": {
+                        "name": "Delanie",
+                        "id": 3
+                    },
+                    "strokes": 53,
+                    "parScore": 8,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
                 }
             ]
         },
@@ -2787,9 +3120,9 @@
                 "name": "Luke",
                 "id": 4
             },
-            "totalPoints": 38.0,
-            "totalStrokes": 388,
-            "totalParScore": 35,
+            "totalPoints": 43.0,
+            "totalStrokes": 431,
+            "totalParScore": 33,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -2825,6 +3158,11 @@
                     "name": "Hereford Golf Center",
                     "date": "2024-08-24",
                     "id": 8
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -2931,6 +3269,21 @@
                         "name": "Hereford Golf Center",
                         "date": "2024-08-24",
                         "id": 8
+                    }
+                },
+                {
+                    "points": 5,
+                    "place": 3,
+                    "player": {
+                        "name": "Luke",
+                        "id": 4
+                    },
+                    "strokes": 43,
+                    "parScore": -2,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
                     }
                 }
             ]
@@ -3046,9 +3399,9 @@
                 "name": "Ryan",
                 "id": 7
             },
-            "totalPoints": 32.0,
-            "totalStrokes": 538,
-            "totalParScore": 92,
+            "totalPoints": 38.5,
+            "totalStrokes": 580,
+            "totalParScore": 89,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -3094,6 +3447,11 @@
                     "name": "Churchville Original",
                     "date": "2024-09-02",
                     "id": 9
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -3231,6 +3589,21 @@
                         "date": "2024-09-02",
                         "id": 9
                     }
+                },
+                {
+                    "points": 6.5,
+                    "place": 1,
+                    "player": {
+                        "name": "Ryan",
+                        "id": 7
+                    },
+                    "strokes": 42,
+                    "parScore": -3,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
                 }
             ]
         },
@@ -3239,9 +3612,9 @@
                 "name": "Megan",
                 "id": 8
             },
-            "totalPoints": 32.5,
-            "totalStrokes": 541,
-            "totalParScore": 95,
+            "totalPoints": 34.5,
+            "totalStrokes": 592,
+            "totalParScore": 101,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -3287,6 +3660,11 @@
                     "name": "Churchville Original",
                     "date": "2024-09-02",
                     "id": 9
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -3424,6 +3802,21 @@
                         "date": "2024-09-02",
                         "id": 9
                     }
+                },
+                {
+                    "points": 2,
+                    "place": 6,
+                    "player": {
+                        "name": "Megan",
+                        "id": 8
+                    },
+                    "strokes": 51,
+                    "parScore": 6,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
+                    }
                 }
             ]
         },
@@ -3465,9 +3858,9 @@
                 "name": "Natalie",
                 "id": 10
             },
-            "totalPoints": 2.5,
-            "totalStrokes": 164,
-            "totalParScore": 49,
+            "totalPoints": 6.5,
+            "totalStrokes": 212,
+            "totalParScore": 52,
             "events": [
                 {
                     "name": "Mitchells Monster",
@@ -3478,6 +3871,11 @@
                     "name": "Hereford Golf Center",
                     "date": "2024-08-24",
                     "id": 8
+                },
+                {
+                    "name": "Night Hawk Golf Center",
+                    "date": "2024-09-09",
+                    "id": 10
                 }
             ],
             "scores": [
@@ -3509,6 +3907,21 @@
                         "name": "Hereford Golf Center",
                         "date": "2024-08-24",
                         "id": 8
+                    }
+                },
+                {
+                    "points": 4,
+                    "place": 4,
+                    "player": {
+                        "name": "Natalie",
+                        "id": 10
+                    },
+                    "strokes": 48,
+                    "parScore": 3,
+                    "eventId": {
+                        "name": "Night Hawk Golf Center",
+                        "date": "2024-09-09",
+                        "id": 10
                     }
                 }
             ]
@@ -3573,15 +3986,15 @@
                 "name": "Mike",
                 "id": 0
             },
-            "score": 4.8,
-            "numberOfEvents": 10
+            "score": 4.732,
+            "numberOfEvents": 11
         },
         {
             "player": {
                 "name": "Kyle",
                 "id": 1
             },
-            "score": 1.05,
+            "score": 0.959,
             "numberOfEvents": 1
         },
         {
@@ -3589,31 +4002,31 @@
                 "name": "Graham",
                 "id": 2
             },
-            "score": 4.4,
-            "numberOfEvents": 9
+            "score": 4.682,
+            "numberOfEvents": 10
         },
         {
             "player": {
                 "name": "Delanie",
                 "id": 3
             },
-            "score": 3.1,
-            "numberOfEvents": 8
+            "score": 2.995,
+            "numberOfEvents": 9
         },
         {
             "player": {
                 "name": "Luke",
                 "id": 4
             },
-            "score": 4.15,
-            "numberOfEvents": 7
+            "score": 4.309,
+            "numberOfEvents": 8
         },
         {
             "player": {
                 "name": "Daniel",
                 "id": 5
             },
-            "score": 0.65,
+            "score": 0.595,
             "numberOfEvents": 1
         },
         {
@@ -3621,7 +4034,7 @@
                 "name": "Austin",
                 "id": 6
             },
-            "score": 1.0,
+            "score": 0.923,
             "numberOfEvents": 3
         },
         {
@@ -3629,23 +4042,23 @@
                 "name": "Ryan",
                 "id": 7
             },
-            "score": 3.65,
-            "numberOfEvents": 9
+            "score": 4.0,
+            "numberOfEvents": 10
         },
         {
             "player": {
                 "name": "Megan",
                 "id": 8
             },
-            "score": 3.7,
-            "numberOfEvents": 9
+            "score": 3.636,
+            "numberOfEvents": 10
         },
         {
             "player": {
                 "name": "Jocelyn",
                 "id": 9
             },
-            "score": 0.2,
+            "score": 0.186,
             "numberOfEvents": 1
         },
         {
@@ -3653,15 +4066,15 @@
                 "name": "Natalie",
                 "id": 10
             },
-            "score": 0.35,
-            "numberOfEvents": 2
+            "score": 0.741,
+            "numberOfEvents": 3
         },
         {
             "player": {
                 "name": "Adan",
                 "id": 11
             },
-            "score": 0.65,
+            "score": 0.6,
             "numberOfEvents": 2
         }
     ]
