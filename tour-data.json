@@ -589,6 +589,103 @@
                 }
             ],
             "par": 40
+        },
+        {
+            "name": "Night Hawk Golf Center",
+            "id": 10,
+            "holes": [
+                {
+                    "name": "",
+                    "number": 1,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 2,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 3,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 4,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 5,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 6,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 7,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 8,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 9,
+                    "par": 2
+                },
+                {
+                    "name": "",
+                    "number": 10,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 11,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 12,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 13,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 14,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 15,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 16,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 17,
+                    "par": 3
+                },
+                {
+                    "name": "",
+                    "number": 18,
+                    "par": 3
+                }
+            ],
+            "par": 45
         }
     ],
     "events": [
@@ -1215,6 +1312,75 @@
                     },
                     "scores" : [],
                     "strokes" : 45
+                }
+            ]
+        },
+        {
+            "name" : "Night Hawk Golf Center",
+            "date" : "2024-09-09",
+            "id" : 10,
+            "course" : {
+                "name": "Night Hawk Golf Center",
+                "id" : 10,
+                "holes" : [],
+                "par" : 45
+            },
+            "scores" : [
+                {
+                    "player" : {
+                        "name" : "Mike",
+                        "id": 0
+                    },
+                    "scores" : [],
+                    "strokes" : 50
+                },                
+                {
+                    "player" : {
+                        "name" : "Ryan",
+                        "id": 7
+                    },
+                    "scores" : [],
+                    "strokes" : 42
+                },
+                {
+                    "player" : {
+                        "name" : "Megan",
+                        "id": 8
+                    },
+                    "scores" : [],
+                    "strokes" : 51
+                },
+                {
+                    "player" : {
+                        "name" : "Graham",
+                        "id": 2
+                    },
+                    "scores" : [],
+                    "strokes" : 42
+                },
+                {
+                    "player" : {
+                        "name" : "Delanie",
+                        "id": 3
+                    },
+                    "scores" : [],
+                    "strokes" : 53
+                },
+                {
+                    "player" : {
+                        "name" : "Luke",
+                        "id": 4
+                    },
+                    "scores" : [],
+                    "strokes" : 43
+                },
+                {
+                    "player" : {
+                        "name" : "Natalie",
+                        "id": 10
+                    },
+                    "scores" : [],
+                    "strokes" : 48
                 }
             ]
         }
